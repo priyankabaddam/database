@@ -79,7 +79,7 @@
 			
 }
 		
-		
+
 		function clearForm() {
 			$scope.userform.name = "";
 			$scope.userform.department = "";
@@ -143,6 +143,5 @@
 			</tr>
 		</table>
 	</div>
-	
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>User Management</title>
-
+<base href="/"   />
 <script
 	src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script type="text/javascript">
@@ -79,7 +79,7 @@
 			
 }
 		
-		
+
 		function clearForm() {
 			$scope.userform.name = "";
 			$scope.userform.department = "";
@@ -143,6 +143,5 @@
 			</tr>
 		</table>
 	</div>
-	
 </body>
 </html>

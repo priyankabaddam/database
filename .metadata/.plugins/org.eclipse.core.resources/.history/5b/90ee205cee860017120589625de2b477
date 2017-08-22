@@ -79,7 +79,7 @@
 			
 }
 		
-		
+
 		function clearForm() {
 			$scope.userform.name = "";
 			$scope.userform.department = "";

@@ -79,7 +79,14 @@
 			
 }
 		
-		
+		$.ajax({
+		    type: "POST",
+		    url: "user",
+		    data: angular.toJson(user),
+		    success: function() {   
+		        location.reload();  
+		    }
+		});
 		function clearForm() {
 			$scope.userform.name = "";
 			$scope.userform.department = "";

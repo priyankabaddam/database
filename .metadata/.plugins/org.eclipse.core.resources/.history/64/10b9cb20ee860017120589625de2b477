@@ -79,7 +79,7 @@
 			
 }
 		
-		
+
 		function clearForm() {
 			$scope.userform.name = "";
 			$scope.userform.department = "";
@@ -143,6 +143,9 @@
 			</tr>
 		</table>
 	</div>
-	
+	<div id="auto"></div>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready();</script>
 </body>
 </html>
